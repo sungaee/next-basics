@@ -20,7 +20,6 @@ export const getStaticProps = async () => {
       allBooks,
       recoBooks,
     },
-    revalidate: 3, // index페이지를 3초 주기로 재검증
   }
 }
 
